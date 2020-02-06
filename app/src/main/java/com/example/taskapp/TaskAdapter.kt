@@ -31,7 +31,6 @@ class TaskAdapter(context:Context):BaseAdapter() {
     }
 
     override fun getView(position: Int,convertView:View?,parent: ViewGroup?):View{
-        TODO("not implemented")//To change body of created functions use File |Settings|File Templates.
         val view:View=convertView?:mLayoutInflater.inflate(android.R.layout.simple_list_item_2,null)
 
         val textView1=view.findViewById<TextView>(android.R.id.text1)
